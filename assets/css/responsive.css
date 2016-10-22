@@ -1,0 +1,741 @@
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px)  and (max-width: 1199px) {
+	.post-list .post.image-overlay .caption .entry-header .entry-title{
+		max-height: 20px;
+	}
+}
+/* Small devices (tablets, 768px and up to 992px) */
+/* 
+==============================
+START MAX SREEN RESOLUTION 991px
+==============================
+*/
+@media (max-width: 991px) {
+.container-width{
+	max-width: 768px;
+}
+.navigation.pagination .nav-links span, 
+.navigation.pagination .nav-links a{
+	padding: 12px;
+    min-height: 40px;
+    min-width: 40px;
+}
+/* 
+==============================
+START COMPOPNENT
+==============================
+*/
+/* --> SUBSCRINE CONTENT */
+.subscribe-content{
+	padding-top: 35px;
+    padding-bottom: 35px;
+}
+.subscribe-content .subscribe-title,
+.subscribe-content .subscribe-form{ 
+	width: 100%;
+	text-align: center;
+}
+.subscribe-content .subscribe-icon{
+	float: none !important;
+    margin: 0 auto;
+}
+.subscribe-content .subscribe-form .input-group{
+	display: block;
+	max-width: 300px;
+	margin: 0 auto;
+}
+.subscribe-content .subscribe-form .form-control{
+	margin-bottom: 20px;
+}
+.subscribe-content .subscribe-form .form-control,
+.subscribe-content .subscribe-form .input-group-btn{
+	display: block;
+    width: 100%;
+    float: none !important;
+}
+.subscribe-content .subscribe-form .input-group-btn{
+	padding: 0;
+}
+.subscribe-content .subscribe-form .btn{
+	display: block;
+    width: 100%;
+}
+
+/* --> NEXT PREV POST */
+.next-prev-post .media > .pull-left,
+.next-prev-post .media > .pull-right{
+	display: none;
+}
+
+/* --> AUTHOR BOX */
+.author-box {
+	text-align: center;
+}
+.author-box .pull-left{
+    float: none !important;
+    margin: 0 0 20px;
+}
+.author-box .pull-left .img-circle{
+	display: inline-block;
+}
+.author-box  .social-media{
+	float: none !important;
+}
+
+/* 
+==============================
+START COMPOPNENT
+==============================
+*/
+
+
+/* 
+==============================
+START CAROUSEL
+==============================
+*/
+
+.featured-post .owl-carousel .entry-title{
+	font-size: 18px;
+}
+/* -> SLIDESHOW */
+.featured-post .owl-carousel.slideshow .featured-post-caption-content .separate-ruler,
+.featured-post .owl-carousel.slideshow .featured-post-caption-content .cat-links,
+.featured-post .owl-carousel.slideshow .featured-post-caption-content .recipe-info {
+	display: none;
+}
+/* 
+==============================
+END CAROUSEL
+==============================
+*/
+
+/* 
+==============================
+START PAGE 
+==============================
+*/
+/* -> CONTACT */
+.contact-form {
+	padding: 20px;
+}
+/* --> LOGIN FORM */
+.form-content {
+    padding: 40px 30px;
+}
+/* 
+==============================
+END PAGE 
+==============================
+*/
+
+/* 
+==============================
+START POST 
+==============================
+*/
+.post-list .post .post-image img{ width: 100%;}
+/* -> START POST TYPOGRAFI */
+.image,
+.image.left,
+.image.right{
+	float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    text-align: center;
+}
+.post-video iframe{
+	height: 300px;
+}
+/* -> END POST TYPOGRAFI */
+/* -> POST LIST */
+.post-list.grid-list .entry-title{
+	font-size: 16px;
+    max-height: 50px;
+    overflow: hidden;
+}
+/* --> STANDART LIST */
+.post-list .standart-list .post-image,
+.post-list.list-2-col .standart-list .post-image{
+	width: 130px;
+	min-height: 1px;
+}
+.post-list .standart-list .entry-header{
+	padding: 15px;
+}
+.post-list .standart-list .entry-title,
+.post-list.list-2-col .standart-list .entry-title{
+	font-size: 16px;
+    margin: 0 0 10px;
+    max-height: 45px;
+}
+.post-list .standart-list .cat-links,
+.post-list .standart-list .inline-recipe-info,
+.post-list.list-2-col .standart-list .post-meta .author,
+.post-list.list-2-col .standart-list .post-meta .post-like,
+.post-list.list-2-col .standart-list .post-meta .serving,
+.post-list.list-2-col .standart-list .post-meta .cooking-time{
+	display:none;
+}
+
+/* --> POST OVERLAY */
+.post-list .post.image-overlay .caption{
+	top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+.post-list .post.image-overlay .caption .entry-header{
+	
+}
+.post-list .post.image-overlay .caption .entry-header .entry-title{
+	max-height: 20px;
+}
+.post-list .post.image-overlay .post-meta .author,
+.post-list .post.image-overlay .post-meta .post-like,
+.post-list .post.image-overlay .post-meta .serving,
+.post-list .post.image-overlay .post-meta .cooking-time{
+	display: none;
+}
+
+/* --> SINGLE POST */
+.single-post-content .post-meta{
+	text-align: center;
+}
+.single-post-content .post-meta .meta-right{
+	float: none !important;
+    display: block;
+    margin-top: 10px;
+}
+
+/* -> START RECIPE */
+.recipe-content .recipe-header,
+.recipe-content .recipe-section{
+	padding: 15px;
+}
+/* 
+==============================
+END POST 
+==============================
+*/
+/* 
+==============================
+START SINGLEPOST 
+==============================
+*/
+.single-post-content .post{
+	padding: 20px;
+}
+/* 
+==============================
+END SINGLEPOST 
+==============================
+*/
+
+/* 
+==============================
+START SIDEBAR
+==============================
+*/
+#sidebar{
+	
+}
+.widget{
+	padding: 20px;
+}
+.widget .widget-title{
+	margin-top: 0;
+}
+.widget .post-list .post-image.pull-left{
+	max-width: 50px;
+    margin-right: 10px;
+}
+.widget_masakmak_about_me .long-desc{
+	margin-left:0;
+	margin-right: 0;
+}
+.widget .post-list .media{
+	margin-top: 20px;
+}
+.widget .post-list .media.big-post .media-body{
+	position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 0 0;
+    display: block;
+}
+.widget .post-list .entry-title{
+	margin: 0;
+}
+.widget .post-list .media.big-post .post-image img{
+	width: 100%;
+}
+.widget .post-list .cat-links{
+	display: none;
+}
+.like-counter-circle{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    padding: 8px 0 !important;
+}
+.like-counter-circle .like-count{
+	font-size: 18px;
+}
+.like-counter-circle small{
+	
+}
+/* -> WIDGET ABUT */
+.widget_masakmak_about_me.style-3  .white-board{
+	margin: 25px -20px -20px;
+}
+/* -> WIDGET SUBSCRIBE */
+.widget-subscribe .subscribe-content .input-group .form-control{
+	margin-bottom: 0;
+}
+/* -> WIDGET TAB */
+.tab-widget .nav-tabs-wrapper{
+	margin: -20px -20px 0;
+}
+/* -> WIDGET INSTAGRAM */
+ul.instagram-gallery li.follow-button{
+	margin-left: -85px;
+	width: 170px;
+	font-size: 12px;
+}
+/* 
+==============================
+END SIDEBAR
+==============================
+*/
+
+/* 
+==============================
+START COMMENT
+==============================
+*/
+/* --> COMMENT LIST */
+.comment-list .children {
+    margin-left: 60px;
+}
+.comment-body .comment-avatar{
+	max-width: 40px;
+}
+.comment-body .comment-author{
+	float: none !important;
+    margin: 0 0 5px;
+}
+.comment-body .comment-right{
+	float: none !important;
+}
+.comment-body .comment-text{
+	margin-left: 0;
+    padding: 15px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.comment-body .comment-text:before{
+	display: none;
+}
+/* 
+==============================
+END COMMENT
+==============================
+*/
+
+
+}
+/* 
+==============================
+END MAX SREEN RESOLUTION 991px
+==============================
+*/
+
+/* Landscape phone to portrait tablet */
+/* 
+==============================
+START MAX SREEN RESOLUTION 767px
+==============================
+*/
+@media (max-width: 767px) {
+.container-width{
+	max-width: 480px;
+}
+/* 
+==============================
+START COMPONENT
+==============================
+*/
+/* -> PAGINATION */
+.pagination-wrap{
+	margin: 10px 0 60px;
+}
+.navigation.pagination{
+	display: block;
+}
+.navigation.pagination .nav-links .page-numbers:not(.prev):not(.next){
+	display: none;
+}
+.navigation.pagination .nav-links .page-numbers.next{
+	float: right;
+}
+.next-prev-post .row{
+	margin-left: -5px;
+    margin-right: -5px;
+}
+.next-prev-post .col-xs-6{
+	padding: 0 5px;
+}
+.next-prev-post{}
+/* 
+==============================
+END COMPONENT
+==============================
+*/
+
+/* 
+==============================
+START HEADER 
+==============================
+*/
+.header-bar-right .navbar-nav{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.header-bar-right .navbar-nav.navbar-right{
+	float: right!important;
+}
+.header-bar-right li{
+	float: left;
+}
+.navbar-nav .open .dropdown-menu.sosmed-dropdown{
+	position: absolute;
+    width: 200px;
+    left: auto;
+    right: 0;
+}
+.navbar-nav .open .dropdown-menu.sosmed-dropdown > li {
+	float: none;
+}
+.navbar-nav .open .dropdown-menu.sosmed-dropdown > li > a{
+	padding: 15px 20px;
+    display: block;
+}
+/* -> START HEADER SEARCH */
+.search-button-nav a.btn{
+	font-size: 12px;
+    width: 140px;
+    margin: 0 5px 15px;
+    padding: 15px 5px;
+    text-align: center;
+}
+/* -> END HEADER SEARCH 
+
+/* -> START TOGGLE NAVBAR */
+.navbar-toggle-overlay{
+	background-color: rgba(0,0,0,0.4);
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	z-index:2000;
+}
+.col-xs-4.open,
+.navbar.open{
+	position: unset;
+}
+.navbar-toggle-menu{
+	display: block;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    bottom: 0;
+	z-index:2001;
+	padding: 20px 0 !important;
+	overflow-y: auto;
+}
+.navbar-toggle-menu .navbar-nav{
+	margin:0;
+}
+.navbar-toggle-menu .navbar-nav li{
+	
+}
+.navbar-toggle-menu .navbar-nav li a{
+	padding: 10px 20px;
+}
+.navbar-left .navbar-nav>li>a:before{ display: none;} 
+.navbar-toggle-menu .navbar-nav>li.dropdown .dropdown-menu{
+	overflow: hidden;
+    padding: 0;
+    position: static;
+    width: 100%;
+    float: none;
+}
+.navbar-nav>li.dropdown:hover>.dropdown-menu{
+	display: none;
+}
+.navbar-toggle-menu .navbar-nav>li.dropdown>.dropdown-menu>li>a{
+	padding: 10px 20px;
+}
+.navbar-toggle-menu .navbar-nav>li.dropdown>.dropdown-menu>li:first-child>a{
+	padding-top: 20px;
+}
+.navbar-toggle-menu .navbar-nav>li.dropdown>.dropdown-menu>li:last-child>a{
+	padding-bottom: 20px;
+}
+
+/* -> END TOGGLE NAVBAR */
+/* 
+==============================
+START HEADER 
+==============================
+*/
+
+/* 
+==============================
+START FEATURED POST 
+==============================
+*/
+.featured-post .owl-carousel .entry-title{
+	font-size: 18px;
+}
+/* -> SLIDESHOW */
+.featured-post .owl-carousel.slideshow .featured-post-caption{
+	bottom: 20px;
+    width: 250px;
+    margin-left: -125px;
+}
+.featured-post .owl-carousel.slideshow .featured-post-caption:before{ display: none; } 
+.featured-post .owl-carousel.slideshow .featured-post-caption-content{
+	padding: 10px;
+}
+.featured-post .owl-carousel.slideshow .featured-post-caption .entry-title{
+	max-height: 17px;
+    overflow: hidden;
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+.featured-post .owl-carousel.slideshow .featured-post-caption .post-meta{
+	margin: 0;
+}
+.featured-post .owl-carousel.slideshow .owl-prev, 
+.featured-post .owl-carousel.slideshow .owl-next{
+	display: none;
+}
+/* 
+==============================
+END FEATURED POST 
+==============================
+*/
+
+/* 
+==============================
+START PAGE 
+==============================
+*/
+.content-notfound{
+	padding: 20px;
+}
+.notfound-title{
+	font-size: 60px;
+}
+.notfound-title .sub-title{
+	font-size: 24px;
+}
+.content-notfound .search-button-nav{
+	margin-top: 40px;
+}
+/* --> LOGIN PAGE */
+.form-content {
+    padding: 30px 20px;
+}
+.form-content .text-left,
+.form-content .text-right{
+	text-align: center;
+}
+/* 
+==============================
+END PAGE 
+==============================
+*/
+
+/* 
+==============================
+START POST 
+==============================
+*/
+/* -> START POST TYPOGRAFI */
+.single-post-content .entry-title{
+	font-size: 24px;
+}
+.post-video iframe{
+	height: 200px;
+}
+.entry-footer .tags-links{
+	text-align: center;
+}
+.image.center{
+	max-width: 100% !important;
+    width: inherit !important;
+}
+/* -> END POST TYPOGRAFI */
+.post-list .post{
+	margin-bottom: 15px;
+}
+.post-list .post .post-image img{ width: 100%;}
+/* -> POST LIST */
+.post-list.grid-list .entry-title{
+	font-size: 14px;
+    max-height: 40px;
+    overflow: hidden;
+}
+/* --> STANDART LIST */
+.post-list .standart-list .post-image,
+.post-list.list-2-col .standart-list .post-image{
+	width: 100px;
+}
+.post-list .standart-list .entry-title,
+.post-list.list-2-col .standart-list .entry-title{
+	font-size: 14px;
+    line-height: 1.2;
+	margin-bottom: 5px;
+}
+.post-list .standart-list .post-meta{
+	padding: 0;
+	line-height: 1;
+}
+.post-list .standart-list .post-meta:before{
+	display: none;
+}
+
+/* --> POST OVERLAY */
+.widget.related-post .post-list.post-overlay{
+	padding-bottom: 10px;
+}
+.widget.related-post .widget-title{
+	margin-bottom: 15px;
+}
+.post-overlay{
+	
+}
+.post-overlay .row{
+	margin-left: -5px;
+    margin-right: -5px;
+}
+.post-overlay .row .col-xs-6{
+	padding: 0 5px;
+}
+.post-list .post.image-overlay{
+	margin-bottom: 10px;
+}
+.post-list .post.image-overlay .caption{
+	top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+}
+.post-list .post.image-overlay .caption .entry-header{
+	padding: 5px;
+}
+.post-list .post.image-overlay .caption .entry-header .entry-title{
+	font-size: 10px;
+    max-height: none;
+    height: 28px;
+}
+.post-list .post.image-overlay .caption .entry-header .post-meta{
+	display: none;
+}
+/* -> END RECIPE */
+/* 
+==============================
+END POST 
+==============================
+*/
+
+/* 
+==============================
+START COMMENT
+==============================
+*/
+.comment-body .pull-left{
+	margin-right: 10px;
+}
+.comment-list .children {
+    margin-left: 50px;
+}
+.comment-body .comment-date-time{ display: none;}
+.comment-body .comment-text{
+	font-size: 12px;
+    padding: 10px;
+}
+.comment-form-area {
+    padding: 15px;
+}
+/* 
+==============================
+START COMMENT
+==============================
+*/
+
+
+
+/* 
+==============================
+START SIDEBAR
+==============================
+*/
+#sidebar{
+	max-width: 320px;
+    margin: 0 auto;
+}
+/* 
+==============================
+END SIDEBAR
+==============================
+*/
+
+/* 
+==============================
+START FOOTER
+==============================
+*/
+.footer-menu{
+	text-align: center;
+    margin-bottom: 20px;
+}
+.footer-menu a{
+	display: inline-block;
+	padding: 5px 0;
+}
+.footer-sosmed {
+	max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 
+==============================
+END FOOTER
+==============================
+*/
+
+}
+/* 
+==============================
+END MAX SREEN RESOLUTION 767px
+==============================
+*/
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
