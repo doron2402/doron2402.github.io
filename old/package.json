@@ -1,0 +1,26 @@
+{
+  "name": "doron2402.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "holder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doron2402/doron2402.github.io.git"
+  },
+  "author": "Doron Segal <Doron2402@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doron2402/doron2402.github.io/issues"
+  },
+  "homepage": "https://github.com/doron2402/doron2402.github.io#readme",
+  "devDependencies": {
+    "font-awesome": "^4.6.3",
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  }
+}

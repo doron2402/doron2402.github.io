@@ -1,26 +1,36 @@
 {
   "name": "doron2402.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "holder.js",
+  "description": "My github.io page",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/gulp dev"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doron2402/doron2402.github.io.git"
   },
-  "author": "Doron Segal <Doron2402@gmail.com>",
+  "author": "Doron Segal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/doron2402/doron2402.github.io/issues"
   },
   "homepage": "https://github.com/doron2402/doron2402.github.io#readme",
-  "devDependencies": {
-    "font-awesome": "^4.6.3",
-    "http-server": "^0.9.0"
-  },
   "dependencies": {
-    "animate.css": "^3.5.2"
+    "bootstrap": "^4.0.0-beta.2",
+    "devicons": "^1.8.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9",
+    "simple-line-icons": "^2.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.0",
+    "gulp-header": "1.8.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "3.0.0"
   }
 }
